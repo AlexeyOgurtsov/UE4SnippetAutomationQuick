@@ -1,6 +1,8 @@
 #include "Misc/AutomationTest.h"
+#include "TestUnitTestCommand.h"
 #include "MyTestableClass.h"
 
+#include "UObject/Package.h"
 #include "Logging/LogMacros.h"
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST( FMyTestableClassTestFirst, "MyTests.Testable.First", EAutomationTestFlags::EditorContext | EAutomationTestFlags::SmokeFilter )
